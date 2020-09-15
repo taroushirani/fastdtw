@@ -46,7 +46,7 @@ extensions = [Extension(
         [os.path.join('fastdtw', '_fastdtw' + ext)],
         language="c++",
         include_dirs=numpy_includes,
-        libraries=["stdc++"]
+        libraries=[]
     )]
 
 if USE_CYTHON:
